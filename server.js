@@ -16,6 +16,11 @@ async function connect(){
 
 connect();
 
+//To view engine
+// app.set("view engine", "ejs");
+
+
+
 app.listen(8000, () => {
-    console.log("Server started on port 800")
+    console.log("Server started on port 8000")
 })
